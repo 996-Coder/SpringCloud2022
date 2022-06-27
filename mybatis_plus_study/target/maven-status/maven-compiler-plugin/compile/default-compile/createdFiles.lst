@@ -1,0 +1,3 @@
+com\example\mybatisplus\MybatisPlusStudyApplication.class
+com\example\mybatisplus\mapper\UserMapper.class
+com\example\mybatisplus\entity\User.class

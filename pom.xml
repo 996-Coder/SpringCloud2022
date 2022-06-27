@@ -8,6 +8,8 @@
         <module>book-service</module>
         <module>borrow-service</module>
         <module>common-service</module>
+        <module>mybatis_plus_study</module>
+        <module>mybatis_study</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -46,6 +48,20 @@
             <groupId>com.baomidou</groupId>
             <artifactId>mybatis-plus-generator</artifactId>
             <version>3.5.2</version>
+        </dependency>
+
+        <!-- <dependency>
+             <groupId>com.baomidou</groupId>
+             <artifactId>mybatis-plus-core</artifactId>
+             <version>3.5.1</version>
+             <scope>compile</scope>
+         </dependency>-->
+
+        <!-- https://mvnrepository.com/artifact/com.baomidou/mybatis-plus-boot-starter -->
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-boot-starter</artifactId>
+            <version>3.5.1</version>
         </dependency>
 
         <dependency>

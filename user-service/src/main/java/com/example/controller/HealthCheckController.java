@@ -9,9 +9,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/")
-public class HealthCheck {
+public class HealthCheckController {
     @GetMapping
-    public ResponseEntity<ResponseObject> healthCheck(){
+    public ResponseEntity<ResponseObject> healthCheck() {
         ResponseObject responseObject = new ResponseObject();
         responseObject.setMessage("Application is running...");
         responseObject.setCode(200);
